@@ -108,28 +108,28 @@
             <div class="depoimentos-container w50 left">
                 <h2 class="title">Depoimentos</h2>
                 <div class="depoimento-single">
-                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p class="descricao">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore 
                     et dolore magna aliqua.”</p>
-                    <p>Autor: Fulado da Silva</p>
+                    <p class="autor">Autor: Fulado da Silva</p>
                 </div>
                 <div class="depoimento-single">
-                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p class="descricao">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore 
                     et dolore magna aliqua.”</p>
-                    <p>Autor: Ciclano da Ferreira</p>
+                    <p class="autor">Autor: Ciclano da Ferreira</p>
                 </div>
                 <div class="depoimento-single">
-                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p class="descricao">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore 
                     et dolore magna aliqua.”</p>
-                    <p>Autor: Fulano da Costa</p>
+                    <p class="autor">Autor: Fulano da Costa</p>
                 </div>
                 <div class="depoimento-single">
-                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p class="descricao">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore 
                     et dolore magna aliqua.”</p>
-                    <p>Autor: Beltrano de Souza</p>
+                    <p class="autor">Autor: Beltrano de Souza</p>
                 </div>
             </div>
             <div class="servicos-container w50 left">
