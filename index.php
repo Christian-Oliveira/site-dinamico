@@ -27,6 +27,9 @@
 
             <!--navbar mobile-->
             <nav class="mobile right">
+                <div class="btn-menu-mobile">
+                    <i class="fas fa-bars"></i>
+                </div>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -39,11 +42,12 @@
     </header>
 
     <section class="banner-principal">
+        <div class="overlay"></div>
         <div class="center">
             <form>
                 <h2>Qual o seu melhor E-mail?</h2>
-                <input type="email" name="email" required/>
-                <input type="submit" name="acao" value="cadastrar"/>
+                <input type="email" name="email" placeholder="Digite aqui seu melhor E-mail" required/>
+                <input type="submit" name="acao" value="Cadastrar"/>
             </form>
         </div>
     </section>
@@ -65,7 +69,7 @@
                 e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.</p>
             </div>
             <div class="w50 left">
-                <img src="images/user.jpg"/>
+                <img class="right" src="images/user.jpg"/>
             </div>
             <div class="clear"></div>
         </div>
@@ -76,31 +80,32 @@
             <h2 class="title">Especialidades</h2>
             <div class="w33 left box-especialidade">
                 <h3><i class="fab fa-css3-alt"></i></h3>
-                <h3>CSS</h3>
+                <h4>CSS</h4>
                 <p>Lorem ipsum is placeholder text commonly used in the graphic, 
                 print, and publishing industries for previewing 
                 layouts and visual mockups.</p>
             </div>
             <div class="w33 left box-especialidade">
                 <h3><i class="fab fa-html5"></i></h3>
-                <h3>HTML</h3>
+                <h4>HTML</h4>
                 <p>Lorem ipsum is placeholder text commonly used in the graphic, 
                 print, and publishing industries for previewing 
                 layouts and visual mockups.</p>
             </div>
             <div class="w33 left box-especialidade">
                 <h3><i class="fab fa-js-square"></i></h3>
-                <h3>Javascript</h3>
+                <h4>Javascript</h4>
                 <p>Lorem ipsum is placeholder text commonly used in the graphic, 
                 print, and publishing industries for previewing
                 layouts and visual mockups.</p>
             </div>
+            <div class="clear"></div>
         </div>
     </section>
 
     <section class="extras">
         <div class="center">
-            <div class="w50 left">
+            <div class="depoimentos-container w50 left">
                 <h2 class="title">Depoimentos</h2>
                 <div class="depoimento-single">
                     <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -127,8 +132,8 @@
                     <p>Autor: Beltrano de Souza</p>
                 </div>
             </div>
-            <div class="w50 left">
-                <h2 class="tilte">Serviços<h2>
+            <div class="servicos-container w50 left">
+                <h2 class="title">Serviços<h2>
                 <ul>
                     <li>Lorem ipsum is placeholder text commonly used in the graphic, print, 
                     and publishing industries for previewing layouts and visual mockups.</li>
