@@ -15,7 +15,7 @@
     <header>
         <div class="center">
             <div class="logo left">
-                <a href="">Logomarca</a>
+                <a href="/site_dinamico">Logomarca</a>
             </div>
             <!--navbar desktop-->
             <nav class="desktop right">
@@ -159,5 +159,6 @@
         </div>
     </footer>
     <script src="js/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
