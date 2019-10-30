@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Projeto 01</title>
-    <meta name="viewport" content="width-device-width, initial-scale-1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="keywords" content="curso PHP,site"/>
     <meta name="description" content="Descrição do meu site"/>
     <meta charset="utf-8"/>
@@ -14,7 +14,9 @@
 <body>
     <header>
         <div class="center">
-            <div class="logo left">Logomarca</div>
+            <div class="logo left">
+                <a href="">Logomarca</a>
+            </div>
             <!--navbar desktop-->
             <nav class="desktop right">
                 <ul>
@@ -156,6 +158,6 @@
             <p>Todos os direitos reservados, 2019.</p>
         </div>
     </footer>
-
+    <script src="js/jquery.min.js"></script>
 </body>
 </html>
