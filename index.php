@@ -1,3 +1,5 @@
+<?php include('config.php'); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,23 +9,23 @@
     <meta name="description" content="Descrição do meu site"/>
     <meta charset="utf-8"/>
 
-    <link href="estilo/style.css" rel="stylesheet"/>
-    <link href="estilo/fontawesome/css/all.css" rel="stylesheet"/>
+    <link href="<?php echo INCLUDE_PATH; ?>estilo/style.css" rel="stylesheet"/>
+    <link href="<?php echo INCLUDE_PATH; ?>estilo/fontawesome/css/all.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="center">
             <div class="logo left">
-                <a href="/site_dinamico">Logomarca</a>
+                <a href="<?php echo INCLUDE_PATH; ?>">Logomarca</a>
             </div>
             <!--navbar desktop-->
             <nav class="desktop right">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
                 </ul>
             </nav>
 
@@ -33,10 +35,10 @@
                     <i class="fas fa-bars"></i>
                 </div>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
                 </ul>
             </nav>
             <div class="clear"></div>
@@ -71,7 +73,7 @@
                 e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.</p>
             </div>
             <div class="w50 left">
-                <img class="right" src="images/user.jpg"/>
+                <img class="right" src="<?php echo INCLUDE_PATH; ?>images/user.jpg"/>
             </div>
             <div class="clear"></div>
         </div>
@@ -158,7 +160,7 @@
             <p>Todos os direitos reservados, 2019.</p>
         </div>
     </footer>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/jquery.min.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
 </body>
 </html>
