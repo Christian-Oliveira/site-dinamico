@@ -246,11 +246,75 @@ footer {
     padding: 30px 0;
 }
 
+footer.fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 footer p {
     color: white;
     text-align: center;
     font-weight: 400;
     font-size: 15px;
+}
+
+/*Page 404*/
+section.erro404 h2 {
+    padding: 30px 0;
+    color: #404580;
+    text-align: center;
+}
+
+section.erro404 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+section.erro404 a {
+    color: #404580;
+}
+
+/*Página de Contato*/
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+.contato-container {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.contato-container input[type=text] {
+    margin: 6px 0;
+    width: 100%;
+    max-width: 600px;
+    height: 40px;
+    padding-left: 8px;
+    font-size: 16px;
+    color: #444;
+}
+
+.contato-container textarea {
+    padding: 8px;
+    margin: 8px 0;
+    width: 100%;
+    height: 120px;
+    padding-left: 8px;
+    font-size: 16px;
+    max-width: 600px;
+    resize: vertical;
+    color: #444;
+}
+
+.contato-container input[type=submit] {
+    background: #00C59E;
+    width: 140px;
+    height: 48px;
+    color: white;
+    border: 0;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 668px) {
